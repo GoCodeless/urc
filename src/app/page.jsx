@@ -23,7 +23,11 @@ export default async function Home() {
 
   return (
     <>
-      <Heading>Good afternoon</Heading>
+      <div className="relative">
+      <Heading className="absolute bottom-10 left-10 !text-white z-2 !text-4xl">Good afternoon</Heading>
+        <img className="object-cover rounded-lg max-h-[600px] w-full" src="assets/urc.png"></img>
+      </div>
+
       <div className="mt-8 flex items-end justify-between">
         <Subheading>Overview</Subheading>
         {/* <div>
@@ -34,6 +38,7 @@ export default async function Home() {
             <option value="last_quarter">Last quarter</option>
           </Select>
         </div> */}
+
       </div>
       <div className="mt-4 grid gap-8 sm:grid-cols-2 xl:grid-cols-4">
         <Stat title="Account Balance" value="$180,434.57" change="+4.5%" />

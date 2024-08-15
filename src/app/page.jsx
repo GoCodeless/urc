@@ -46,7 +46,7 @@ export default async function Home() {
         <Stat title="Available Credit" value="$19,565.43" change="+4.5%" />
         <Stat title="Last Purchase" value="02-18-24" change="" />
       </div>
-      <Subheading className="mt-14">Recent orders</Subheading>
+      {/* <Subheading className="mt-14">Recent orders</Subheading>
       <Table className="mt-8 [--gutter:theme(spacing.6)] lg:[--gutter:theme(spacing.10)]">
         <TableHead>
           <TableRow>
@@ -70,7 +70,7 @@ export default async function Home() {
             </TableRow>
           ))}
         </TableBody>
-      </Table>
+      </Table> */}
     </>
   )
 }

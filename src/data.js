@@ -15,7 +15,7 @@ export const getOrders = async () => {
       terminal: "WARREN",
       state: "PA",
       prodName: "ULSD 08025",
-      price: "$2.5",
+      price: "$2.5000",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -24,7 +24,7 @@ export const getOrders = async () => {
       terminal: "WARREN",
       state: "PA",
       prodName: "AWD 08026",
-      price: "$2.53",
+      price: "$2.5300",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -33,7 +33,7 @@ export const getOrders = async () => {
       terminal: "WARREN",
       state: "PA",
       prodName: "#2 HO 08121",
-      price: "$2.465",
+      price: "$2.4650",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -42,7 +42,7 @@ export const getOrders = async () => {
       terminal: "WARREN",
       state: "PA",
       prodName: "B2 ULSD 08325",
-      price: "$2.51",
+      price: "$2.5100",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -51,7 +51,7 @@ export const getOrders = async () => {
       terminal: "WARREN",
       state: "PA",
       prodName: "B2 AWD 08326",
-      price: "$2.55",
+      price: "$2.5500",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -60,7 +60,7 @@ export const getOrders = async () => {
       terminal: "WARREN",
       state: "PA",
       prodName: "B5 ULSD 08525",
-      price: "$2.5",
+      price: "$2.5000",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -69,7 +69,7 @@ export const getOrders = async () => {
       terminal: "WARREN",
       state: "PA",
       prodName: "B5 AWD 08526",
-      price: "$2.53",
+      price: "$2.5300",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -78,7 +78,7 @@ export const getOrders = async () => {
       terminal: "WARREN",
       state: "PA",
       prodName: "BZERO AWD 08571",
-      price: "$2.59",
+      price: "$2.5900",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -87,7 +87,7 @@ export const getOrders = async () => {
       terminal: "ROCHESTER",
       state: "NY",
       prodName: "ULSD 08025",
-      price: "$2.56",
+      price: "$2.5600",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -96,7 +96,7 @@ export const getOrders = async () => {
       terminal: "TONAWANDA",
       state: "NY",
       prodName: "BZERO AWD 08571",
-      price: "$2.56",
+      price: "$2.5600",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -105,7 +105,7 @@ export const getOrders = async () => {
       terminal: "WARREN-KEYSTONE",
       state: "PA",
       prodName: "ULSD 08025",
-      price: "$2.5",
+      price: "$2.5000",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -114,7 +114,7 @@ export const getOrders = async () => {
       terminal: "WARREN-KEYSTONE",
       state: "PA",
       prodName: "AWD 08026",
-      price: "$2.53",
+      price: "$2.5300",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -123,7 +123,7 @@ export const getOrders = async () => {
       terminal: "WARREN-KEYSTONE",
       state: "PA",
       prodName: "#2 HO 08121",
-      price: "$2.465",
+      price: "$2.4650",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -132,7 +132,7 @@ export const getOrders = async () => {
       terminal: "WARREN-KEYSTONE",
       state: "PA",
       prodName: "B2 ULSD 08325",
-      price: "$2.51",
+      price: "$2.5100",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -141,7 +141,7 @@ export const getOrders = async () => {
       terminal: "WARREN-KEYSTONE",
       state: "PA",
       prodName: "B2 AWD 08326",
-      price: "$2.55",
+      price: "$2.5500",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -150,7 +150,7 @@ export const getOrders = async () => {
       terminal: "WARREN-KEYSTONE",
       state: "PA",
       prodName: "B5 ULSD 08525",
-      price: "$2.5",
+      price: "$2.5000",
       effDate: "05/13/24",
       effTime: "18:00:00"
     },
@@ -159,7 +159,7 @@ export const getOrders = async () => {
       terminal: "WARREN-KEYSTONE",
       state: "PA",
       prodName: "B5 AWD 08526",
-      price: "$2.53",
+      price: "$2.5300",
       effDate: "05/13/24",
       effTime: "18:00:00"
     }
@@ -280,6 +280,95 @@ export const getReceipts = async () => {
     }
   ];
 };
+
+export const getBol = async () => {
+  return [
+      {
+        "seq": 1,
+        "filename": "20240309192109.5654533.001",
+        "filesize": 39514,
+        "imageMasterId": 5654533,
+        "imageTypeCodeId": "BOLPKT",
+        "srcNo": 1001,
+        "bolNo": 191,
+        "bolDate": "01-02-08",
+        "pageCount": 4,
+        "imageClass": "I",
+        "cacheStatus": 0,
+        "extension": ".tif",
+        "archiveStatus": "DISK",
+        "masterFile": "s2016416.tif",
+        "detailFile": "s2016416",
+        "detailBatch": "BILLING batch_204R",
+        "orientation": 270,
+        "urcImgexpfId": "5654533*I",
+        "urcCustId": "07402950"
+      },
+      {
+        "seq": 2,
+        "filename": "20240309192109.5654533.002",
+        "filesize": 25948,
+        "imageMasterId": 5654533,
+        "imageTypeCodeId": "BOLPKT",
+        "srcNo": 1001,
+        "bolNo": 191,
+        "bolDate": "01-02-08",
+        "pageCount": 4,
+        "imageClass": "I",
+        "cacheStatus": 0,
+        "extension": ".tif",
+        "archiveStatus": "DISK",
+        "masterFile": "s2016417.tif",
+        "detailFile": "s2016417",
+        "detailBatch": "BILLING batch_204R",
+        "orientation": 180,
+        "urcImgexpfId": "5654533*I",
+        "urcCustId": "07402950"
+      },
+      {
+        "seq": 3,
+        "filename": "20240309192109.5654533.003",
+        "filesize": 26132,
+        "imageMasterId": 5654533,
+        "imageTypeCodeId": "BOLPKT",
+        "srcNo": 1001,
+        "bolNo": 191,
+        "bolDate": "01-02-08",
+        "pageCount": 4,
+        "imageClass": "I",
+        "cacheStatus": 0,
+        "extension": ".tif",
+        "archiveStatus": "DISK",
+        "masterFile": "s2016418.tif",
+        "detailFile": "s2016418",
+        "detailBatch": "BILLING batch_204R",
+        "orientation": 180,
+        "urcImgexpfId": "5654533*I",
+        "urcCustId": "07402950"
+      },
+      {
+        "seq": 4,
+        "filename": "20240309192109.5654533.004",
+        "filesize": 23516,
+        "imageMasterId": 5654533,
+        "imageTypeCodeId": "BOLPKT",
+        "srcNo": 1001,
+        "bolNo": 191,
+        "bolDate": "01-02-08",
+        "pageCount": 4,
+        "imageClass": "I",
+        "cacheStatus": 0,
+        "extension": ".tif",
+        "archiveStatus": "DISK",
+        "masterFile": "s2016419.tif",
+        "detailFile": "s2016419",
+        "detailBatch": "BILLING batch_204R",
+        "orientation": 180,
+        "urcImgexpfId": "5654533*I",
+        "urcCustId": "07402950"
+      }
+  ]
+}
 
 export function getSheets() {
   return [
